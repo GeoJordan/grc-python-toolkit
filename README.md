@@ -54,3 +54,5 @@ This toolkit helps organizations:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+Built by George Jordan using Python + GRC automation.
