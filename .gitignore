@@ -13,5 +13,16 @@ data/processed/
 .DS_Store
 Thumbs.db
 
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Output data
+data/processed/
+
 # VS Code
 .vscode/
