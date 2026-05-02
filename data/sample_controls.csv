@@ -1,0 +1,6 @@
+identifier,discussion
+AC-1,Access control policy aligns with HIPAA 164.312 and user authentication requirements.
+MP-5,Media disposal and retention procedures are documented.
+AU-2,Audit logs are reviewed weekly for suspicious activity.
+SC-13,Encryption is required for sensitive data in transit.
+IA-2,Multi-factor authentication is enforced for privileged users.
