@@ -29,12 +29,13 @@ pip install -r requirements.txt
 
 ```bash
 grc-python-toolkit/
-├── src/
-├── data/
 ├── app.py
+├── data_loader.py
+├── pipeline.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── images/
 ```
 
 ## Business Value
