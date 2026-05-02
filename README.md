@@ -55,4 +55,8 @@ This toolkit helps organizations:
 pip install -r requirements.txt
 streamlit run app.py
 
+## Dashboard Preview
+
+![Dashboard Screenshot](images/dashboard.jpg)
+
 Built by George Jordan using Python + GRC automation.
