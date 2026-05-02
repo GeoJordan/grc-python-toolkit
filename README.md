@@ -57,6 +57,6 @@ streamlit run app.py
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard.png)
+![Dashboard Screenshot](images/dashboard.jpg)
 
 Built by George Jordan using Python + GRC automation.
