@@ -62,4 +62,8 @@ streamlit run app.py
 
 ![Dashboard Screenshot](images/analysis_results.png)
 
+## Live Demo
+
+Try the app here: https://grc-python-toolkit-munwvhugqwteynxkdxrcs9.streamlit.app/
+
 Built by George Jordan using Python + GRC automation.
