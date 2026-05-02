@@ -14,6 +14,8 @@ This project automates:
 - Detects HIPAA references (e.g., 164.x)
 - Maps controls across frameworks
 - Scores controls and assigns risk levels
+- Exports processed audit artifacts
+- Interactive Streamlit dashboard for compliance analysis
 - Evaluates HITRUST 06.c relevance
 - Streamlit dashboard for interactive analysis
 
