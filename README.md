@@ -48,7 +48,6 @@ This toolkit helps organizations:
 - Standardize control analysis
 - Support healthcare security assessments
 
-
 ## How to Run
 
 ```bash
