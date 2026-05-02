@@ -56,5 +56,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Dashboard Preview
-![Dashboard Screenshot](images/dashboard.jpg)
+
+![Dashboard Screenshot](images/dashboard.png)
+
 Built by George Jordan using Python + GRC automation.
