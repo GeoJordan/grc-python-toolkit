@@ -19,20 +19,32 @@ if uploaded_file:
     if st.button("Run Analysis"):
         results = run_pipeline(uploaded_file)
 
-        st.subheader("Analysis Results")
-        st.dataframe(results)
-
-        st.subheader("Risk Summary")
-        st.dataframe(results[["identifier", "score", "risk_level"]])
-
-        st.subheader("HIPAA Matches")
         hipaa_matches = results[results["discussion"].str.contains(
             r"HIPAA|164\.",
             case=False,
             na=False
         )]
-        st.dataframe(hipaa_matches)
 
         st.subheader("Summary Metrics")
-        st.metric("Total Controls", len(results))
-        st.metric("HIPAA Matches", len(hipaa_matches))
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.metric("Total Controls", len(results))
+
+        with col2:
+            st.metric("HIPAA Matches", len(hipaa_matches))
+
+        tab1, tab2, tab3 = st.tabs(["Results", "Risk Summary", "HIPAA Matches"])
+
+        with tab1:
+            st.subheader("Analysis Results")
+            st.dataframe(results)
+
+        with tab2:
+            st.subheader("Risk Summary")
+            st.dataframe(results[["identifier", "score", "risk_level"]])
+
+        with tab3:
+            st.subheader("HIPAA Matches")
+            st.dataframe(hipaa_matches)
