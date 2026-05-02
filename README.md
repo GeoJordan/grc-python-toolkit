@@ -60,7 +60,7 @@ streamlit run app.py
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](images/analysis_results.png)
+![Dashboard Screenshot](images/results.png)
 
 ## Live Demo
 
